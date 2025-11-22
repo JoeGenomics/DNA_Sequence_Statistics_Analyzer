@@ -4,10 +4,10 @@ A Python-based tool for calculating length, base composition, GC and AT content 
 OVERVIEW
 > This project is a Python-based bioinformatics tool designed to calculate detailed nucleotide statistics from DNA sequences stored in FASTA format.
 The current version analyzes the hemagglutinin (HA) gene of Influenza A (H1N1) and computes:
--Total sequence length
--Counts of each nucleotide (A, T, G, C)
--GC content (%)
--AT content (%)
+- Total sequence length
+- Counts of each nucleotide (A, T, G, C)
+- GC content (%)
+- AT content (%)
 These metrics are essential in genome characterization, viral evolution studies, and comparative genomics.
 
 ## PURPOSE
@@ -55,10 +55,14 @@ AT Content: 48.56 %
 
 
 ## Interpretation
--The HA gene of this strain contains 1320 nucleotides, GC content (51.44%) is slightly higher than AT content (48.56%), Moderate GC enrichment implies good structural stability of the HA segment
+- The HA gene of this strain contains 1320 nucleotides
+- GC content (51.44%) is slightly higher than AT content (48.56%)
+- Moderate GC enrichment implies good structural stability of the HA segment
 
 ## Such statistics may assist in:
-Viral strain comparison, Protein expression efficiency prediction, Primer design for PCR, Vaccine development studies
+- Viral strain comparison, Protein expression efficiency prediction
+- Primer design for PCR
+- Vaccine development studies
 
 ## Contributions
 Contributions and feature suggestions are welcome.
