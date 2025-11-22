@@ -33,13 +33,16 @@ These metrics provide insight into viral sequence characteristics and can be use
 | Biopython | latest |
 
 
-How to Run
--Make sure dna_stats.py and example.fasta are placed in the same directory.
-Run via terminal:
-python dna_stats.py
+## 🚀 How to Run
+Run the script from the terminal:
 
-Example Output
-Example output from this dataset:
+```bash
+python dna_stats.py example.fasta
+```
+
+
+### 📊 Example Output
+```
 Sequence ID: CY121680.1
 Length: 1320
 A: 270
@@ -48,18 +51,21 @@ G: 458
 C: 221
 GC Content: 51.44 %
 AT Content: 48.56 %
+```
 
-Interpretation
+
+## Interpretation
 -The HA gene of this strain contains 1320 nucleotides
 -GC content (51.44%) is slightly higher than AT content (48.56%)
 -Moderate GC enrichment implies good structural stability of the HA segment
-Such statistics may assist in:
+
+## Such statistics may assist in:
 -Viral strain comparison
 -Protein expression efficiency prediction
 -Primer design for PCR
 -Vaccine development studies
 
-Contributions
+## Contributions
 Contributions and feature suggestions are welcome.
 Fork this repository and submit a pull request anytime.
 
