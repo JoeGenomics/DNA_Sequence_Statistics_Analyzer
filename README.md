@@ -10,23 +10,28 @@ The current version analyzes the hemagglutinin (HA) gene of Influenza A (H1N1) a
 -AT content (%)
 These metrics are essential in genome characterization, viral evolution studies, and comparative genomics.
 
-PURPOSE
+## PURPOSE
 The goal of this project is to compute nucleotide composition and GC/AT content of the Influenza A (H1N1) HA gene.
 These metrics provide insight into viral sequence characteristics and can be used to study genome stability and variation across strains.
 
-DATSET INFORMATION
-Organism: Influenza A virus
-Strain: A/California/07/2009 (H1N1)
-Gene: Hemagglutinin (HA), segment 4
-GenBank Accession: CY121680.1
-Source: NCBI Influenza Virus Resource
---FASTA file used in this project: example.fasta--
+## Dataset Information
+| Attribute | Details |
+|----------|---------|
+| Organism | Influenza A virus |
+| Strain | A/California/07/2009 (H1N1) |
+| Gene | Hemagglutinin (HA), segment 4 |
+| GenBank Accession | CY121680.1 |
+| Source | NCBI Influenza Virus Resource |
+| FASTA file | `example.fasta` |
 
-DEPENDENCIES
- Software  | Version 
- --------- | ------- 
- Python    | 3.x     
- Biopython | latest  
+---
+
+## Dependencies
+| Software | Version |
+|----------|---------|
+| Python | 3.x |
+| Biopython | latest |
+
 
 How to Run
 -Make sure dna_stats.py and example.fasta are placed in the same directory.
@@ -48,7 +53,6 @@ Interpretation
 -The HA gene of this strain contains 1320 nucleotides
 -GC content (51.44%) is slightly higher than AT content (48.56%)
 -Moderate GC enrichment implies good structural stability of the HA segment
-
 Such statistics may assist in:
 -Viral strain comparison
 -Protein expression efficiency prediction
