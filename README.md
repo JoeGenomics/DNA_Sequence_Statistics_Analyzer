@@ -33,7 +33,7 @@ These metrics provide insight into viral sequence characteristics and can be use
 | Biopython | latest |
 
 
-## 🚀 How to Run
+## How to Run
 Run the script from the terminal:
 
 ```bash
@@ -41,7 +41,7 @@ python dna_stats.py example.fasta
 ```
 
 
-### 📊 Example Output
+### Example Output
 ```
 Sequence ID: CY121680.1
 Length: 1320
