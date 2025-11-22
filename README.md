@@ -1,3 +1,9 @@
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Biopython](https://img.shields.io/badge/Biopython-enabled-brightgreen)
+![Status](https://img.shields.io/badge/Project-active-success)
+
+# 🧬 DNA Sequence Statistics Analyzer
+
 # DNA_Sequence_Statistics_Analyzer
 A Python-based tool for calculating length, base composition, GC and AT content from FASTA sequences
 
